@@ -1657,6 +1657,11 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         padding: 5px;
         color: #fff; }
+
+.team-member img {
+  width: 100%;
+}
+
   .team-member h3 {
     color: #000;
     margin: 0;
@@ -1668,6 +1673,15 @@ h1, h2, h3, h4, h5,
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
+
+#team-section h2 {
+  text-align: center;
+}
+
+#team-heading {
+  letter-spacing: 3px !important;
+  color: black !important;
+}
 
 .custom-direction {
   position: relative;
