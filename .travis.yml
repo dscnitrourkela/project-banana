@@ -1,9 +1,4 @@
-language: node_js
-node_js:
-  - "7"
-script:
- - echo "Deploy!!"
-install:
-  - npm install -g firebase-tools
-after_success:
-  - firebase deploy --project-banana-4822  --token $FIREBASE_TOKEN
+deploy:
+  provider: firebase
+  token:
+    secure: JGLflMyND0kNUBQ9hu9CSFlOF7Do79AuIqgrOrml6NoHlhPbyQkkl7v7P8E9McGhk24fLLXuASmWNdiUSNmix1Qb3Lk9PXwBRR9IqVZAblZDlFqEIyEjKiu/EKBmH0s7dYmvDLePKOYfcAjuKVJSvyz8TiFwL+J7yJbIQG/UJC71+8yxUvweCsKJcKRaSJqEQcyhL+/VKvkcZ6j3HRpSayEbJ1K0eMeu02Lwp3au5fRbUOP/g9sDXOK+oohoE5ISb7x6wte72mWO9sJGnFdtwg1OOVGmxhh9J+xSbcKK0TXTQrt5CqZ9f42sgaWjoPfrgj2L5HVLFAoXj5XGCwuo7kV3lGmczOjpeGe3/MNjm1+g4e+UDnQuv4pnaJbmYC1YHG+FCwj+y8HPIYy/r9k6YczIKXBPGwNgiT3FohX/4CvRjAueLv5byDTd3/cR5HQRarZsIXngDwBuFNgoSr2jMyDiSjhxgaYT8Bruax40jMwKiS4bESBGqtEP1WLhnDV60t8eyMLa2q88rzCIr5Q9mKRAuZadRBwoEf8fcKmKgcOIbVVYtl6L2ggPPevnh5LTSvFHIc8TcMzGCN+kUg8BRG0izVkDWAzeT6oyUHaLl8aWGbheUtzDkRQg6JaU17GggbIdtmRbZggdg17TjKkGDd8J1yEYr61ONG9CAWFkFBM=
