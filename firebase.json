@@ -1,11 +1,28 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+  "hosting": [
+    {
+    "target":"base",
+    "public": "public/public",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  {
+    "target":"draft1",
+    "public": "public/draft1",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  {
+    "target":"draft2",
+    "public": "public/draft2",
     "rewrites": [
       {
         "source": "**",
@@ -13,4 +30,5 @@
       }
     ]
   }
+]
 }
