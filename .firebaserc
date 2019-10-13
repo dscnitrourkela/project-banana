@@ -1,5 +1,23 @@
 {
   "projects": {
     "default": "project-banana-4822"
+  },
+  "targets": {
+    "project-banana-4822": {
+      "hosting": {
+        "project-banana-4822": [
+          "base"
+        ],
+        "draft2": [
+          "draft2-4822"
+        ],
+        "base": [
+          "project-banana-4822"
+        ],
+        "draft1": [
+          "draft1-4822"
+        ]
+      }
+    }
   }
 }
