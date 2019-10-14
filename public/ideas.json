@@ -1,0 +1,15 @@
+{
+  "\"ideas\"" : {
+    "\"nitr-route\"" : {
+      "\"contact\"" : "https://github.com/dsc-nitr/",
+      "\"date\"" : "2019-10-10",
+      "\"desc\"" : "Interactive Map for NITR",
+      "\"name\"" : "Abel Mathew",
+      "\"stack\"" : {
+        "\"App Developement\"" : true,
+        "\"Flutter\"" : true
+      },
+      "\"title\"" : "NITR Route"
+    }
+  }
+}
