@@ -73,26 +73,6 @@ h1, h2, h3, h4, h5,
     opacity: 1;
     visibility: visible; }
 
-/* .btn {
-  font-size: 16px;
-  border-radius: 30px;
-  padding: 10px 30px; }
-  .btn:hover, .btn:active, .btn:focus {
-    outline: none;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important; }
-  .btn.btn-primary {
-    background: #4285f4;
-    border-color: #4285f4;
-    color: #fff; }
-    .btn.btn-primary:hover {
-      background: #fff;
-      border-color: #fff;
-      color: #4285f4; }
-    .btn.btn-primary.btn-black--hover:hover {
-      background: #666666;
-      color: #fff; } */
-
 .btn {
   position: relative;
   padding: 12px 30px;
@@ -106,13 +86,16 @@ h1, h2, h3, h4, h5,
   cursor: pointer;
   background-color: transparent;
   border: 0;
+  background-color: #4285f4;
   border-radius: 0.2rem;
   outline: 0;
+  color: white !important;
+  font-weight: 500px;
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: box-shadow, transform;
 }
 
-#idea {
+#idea, #idea-btn {
   background-color: #4285f4;
   margin: 2px;
   color: white !important;
@@ -136,7 +119,9 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
-  padding-top: 50px; }
+  padding-top: 80px; 
+  padding-bottom: 80px;
+}
 
   .site-section.site-section-sm {
     padding: 50px; }
@@ -633,7 +618,27 @@ header .logo {
       bottom: 0;
       right: 0;
       top: 0;
-      background: rgba(0, 0, 0, 0.2); }
+    }
+    
+@media (max-width: 991.98px) {
+  #home-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .site-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #about-content {
+    padding-top: 17px;;
+  }
+
+}
+
+
+
   .site-blocks-cover .player {
     position: absolute;
     bottom: -250px;
@@ -647,7 +652,7 @@ header .logo {
   .site-blocks-cover h1 {
     font-size: 3rem;
     font-weight: 400;
-    color: #fff;
+    color: #000;
     font-weight: 900; }
     @media (max-width: 991.98px) {
       .site-blocks-cover h1 {
