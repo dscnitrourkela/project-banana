@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -47,7 +49,7 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-              <a href="index.html"><img class="logo" src="images/logo2.png" alt="DSC | NITR"></a>
+              <a href="index.html"><img class="logo" src="images/logo.png" alt="DSC | NITR"></a>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -59,7 +61,7 @@
                 <li><a href="#projects-section" class="nav-link">Projects</a></li>
                 <li><a href="team.html" class="nav-link">Team</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
-                <li><span><a href="ideas.html" class="btn" id="idea">Submit an Idea!</a></span></li>
+                <li><span><a href="ideas.html" class="btn" id="idea" style="font-size: 13px; font-weight: 600; padding: 10px 15px;">Submit an Idea!</a></span></li>
               </ul>
             </nav>
           </div>
@@ -73,7 +75,7 @@
     </header>
 
   
-     
+    <!-- <div class="box"> -->
     <div class="site-blocks-cover overlay" id="home-section">
       <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -83,15 +85,16 @@
                 <h1>Developer Students Club</h1>
                 <!-- <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p> -->
                 <div>
-                  <a href="https://developers.google.com/community/dsc" target="_blank" class="btn">Get Started</a>
+                  <span><a href="https://developers.google.com/community/dsc" target="_blank" class="btn">Get Started</a></span>
                 </div>
               </div>
             
         </div>
       </div>
-    </div>  
+    </div>
+    <!-- </div> -->
 
-    
+    <div class="box">
     <div class="site-section cta-big-image" id="about-section">
       <div class="container">
         <div class="row">
@@ -99,6 +102,7 @@
           <div class="col-md-5" id="about-content">Developer Student Club (DSC) is a Google Developers program for university students to learn mobile and web development skills. The club will be open to any student, ranging from novice developers who are just starting, to advanced developers who want to further their skills. The club is intended as a space for students to try out new ideas and collaborate to solve mobile and web development problems.</div>
         </div>  
       </div>
+    </div>
     </div>
 
 
@@ -110,9 +114,9 @@
             <div class="cards" id="events">
               <a href="events.html">
               <img class="img-fluid" src="images/events.jpg" alt="events">
-              <div class="card-body">
+              <div class="card-body" style="margin-top: -40px;">
                 <h3>Events</h3>
-                <p></p>
+                <p>DSC NIT Rourkela has organised a number of workshops, fun events and meetups with students in and around NIT Rourkela to promote learning and developer skills among themselves.</p>
               </div>
               </a>
             </div>
@@ -120,10 +124,13 @@
 
           <div class="col-md-6">
             <div class="cards" id="projects">
+              <a href="https://github.com/developer-student-clubs-nitr">
               <img class="img-fluid" src="images/projects.jpg" alt="projects">
               <div class="card-body">
                 <h3>Projects</h3>
+                <p>DSC NIT Rourkela has undertaken projects in association with other clubs to solve problems related to the Institute.</p>
               </div>
+              </a>
             </div>
           </div>
         </div>
@@ -131,372 +138,64 @@
       </div>
     </section>
 
+    <section>
+      <div class="nit" style="text-align:center; color: #000; padding: 20px;"><h2>Where to Find Us?</h2></div>
+        <div id="location" width="100%">
+            <iframe src="https://www.google.com/maps?q=nit%20rourkela&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+        </div>
+    </section>
     
+    <section class="site-section" id="contact-section">
+        <div class="container">
 
-    <section class="site-section border-bottom bg-light" id="services-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Our Services</h2>
-          </div>
-        </div>
-        <div class="row align-items-stretch">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-autorenew"></span></div>
-              <div>
-                <h3>Great Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-backspace"></span></div>
-              <div>
-                <h3>Time Saving</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-av_timer"></span></div>
-              <div>
-                <h3>Quick Response</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-beenhere"></span></div>
-              <div>
-                <h3>Best Support</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-business_center"></span></div>
-              <div>
-                <h3>Finest Quality</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-cloud_done"></span></div>
-              <div>
-                <h3>Real Solutions</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section class="site-section testimonial-wrap" id="testimonials-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Testimonials</h2>
-          </div>
-        </div>
-      </div>
-      <div class="slide-one-item home-slider owl-carousel">
-          <div>
-            <div class="testimonial">
-              
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>John Smith</p>
-              </figure>
-            </div>
-          </div>
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_2.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Christine Aguilar</p>
-              </figure>
-              
-            </div>
-          </div>
-
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Robert Spears</p>
-              </figure>
-
-              
-            </div>
-          </div>
-
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Bruce Rogers</p>
-              </figure>
-
-            </div>
-          </div>
-
-        </div>
-    </section>
-
-    <section class="site-section" id="about-section">
-      <div class="container">
-        <div class="row mb-5">
-          
-          <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
-            
-
-            <div class="owl-carousel slide-one-item-alt">
-              <img src="images/slide_1.jpg" alt="Image" class="img-fluid">
-              <img src="images/slide_2.jpg" alt="Image" class="img-fluid">
-              <img src="images/slide_3.jpg" alt="Image" class="img-fluid">
-              <img src="images/slide_4.jpg" alt="Image" class="img-fluid">
-            </div>
-            <div class="custom-direction">
-              <a href="#" class="custom-prev">Prev</a><a href="#" class="custom-next">Next</a>
-            </div>
-          </div>
-          <div class="col-md-6 order-md-1" data-aos="fade">
-
-            <div class="row">
-
-              
-              <div class="col-12 mb-4">
-                <h2 class="section-title mb-3">Consulting Agency It's Best</h2>
-              </div>
-              <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-adb"></span></div>
-                  <div>
-                    <h3>Web &amp; Mobile Specialties</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-assignment"></span></div>
-                  <div>
-                    <h3>Intuitive Thinkers</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div id="social-heading">
+              <!-- <h1>Connect</h1> -->
+              <img src="images/dsc.png" alt="DSC" style="width: 100px;">
           </div>
           
-        </div>
-      </div>
-    </section>
+          <div class="row" style="padding-left: 140px; padding-right: 140px;">
+            <div class="col-md-3 social-icons">
+              <a href="https://www.facebook.com/OpenCodeCommunity/"><i class="fa fa-facebook" style="font-size: 48px;"></i></a>          
+            </div>
   
-    
-    
+            <div class="col-md-3 social-icons">
+                <a href="https://instagram.com/dsc.nitr?igshid=1cxnd3olfq2ja"><i class="fa fa-instagram" style="font-size: 48px;"></i></a>
+            </div>
 
-    <section class="site-section" id="blog-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h3 class="section-sub-title">Blog</h3>
-            <h2 class="section-title mb-3">Our Blog Posts</h2>
-          </div>
-        </div>
+            <div class="col-md-3 social-icons">
+                <a href="https://github.com/developer-student-clubs-nitr"><i class="fa fa-github" style="font-size: 48px;"></i></a>  
+            </div>
 
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <a href="single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-              <h2 class="font-size-regular"><a href="single.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-              <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="single.html">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="single.html">Continue Reading...</a></p>
-            </div> 
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <a href="single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-              <h2 class="font-size-regular"><a href="single.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="single.html">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="single.html">Continue Reading...</a></p>
+            <div class="col-md-3 social-icons">
+                <a href="mailto:dsc.nitr@gmail.com"><i class="fa fa-google" style="font-size: 48px;"></i></a> 
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <a href="single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-              <h2 class="font-size-regular"><a href="single.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="single.html">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="single.html">Continue Reading...</a></p>
-            </div> 
-          </div>
-          
+
+         
         </div>
-      </div>
-    </section>
 
-   
-
-
-    <section class="site-section bg-light" id="contact-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h3 class="section-sub-title">Services</h3>
-            <h2 class="section-title mb-3">Our Services</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-7 mb-5">
-
-            
-
-            <form action="#" class="p-5 bg-white">
-              
-              <h2 class="h4 text-black mb-5">Contact Form</h2> 
-
-              <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">First Name</label>
-                  <input type="text" id="fname" class="form-control">
-                </div>
-                <div class="col-md-6">
-                  <label class="text-black" for="lname">Last Name</label>
-                  <input type="text" id="lname" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label> 
-                  <input type="email" id="email" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label> 
-                  <input type="subject" id="subject" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label> 
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
-                </div>
-              </div>
-
-  
-            </form>
-          </div>
-          <div class="col-md-5">
-            
-            <div class="p-4 mb-3 bg-white">
-              <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
-
-              <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
-
-              <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#">youremail@domain.com</a></p>
-
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
     
     <footer class="site-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
-            <div class="row">
-              <div class="col-md-5">
+          <div class="col-md-4">
                 <h2 class="footer-heading mb-4">Feedback</h2> 
                     <!-- Make a google form and link here for feedback. -->
                     <a href="https://www.google.com">Your Opinion Matters!</a> 
-              </div>
-              <div class="col-md-3 ml-auto">
+          </div>
+          <div class="col-md-4">
                 <h2 class="footer-heading mb-4">Useful Links</h2>
-                <!-- <ul class="list-unstyled"> -->
                   <a href="https://developer.android.com/">Android</a><br>
                       <a href="https://cloud.google.com/">Cloud</a><br>
                       <a href="https://developers.google.com/programs/dsc/">Developer Student Clubs</a><br>
                       <a href="https://developers.google.com/programs/community/">Google Developers Program</a><br>
                       <a href="https://developers.google.com/machine-learning/crash-course/ml-intro">Machine Learning</a><br>
-                  <!-- <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Contact Us</a></li> -->
-                </ul>
-              </div>
               
             </div>
-          </div>
-<!--           <div class="col-md-4">
-            <div class="mb-4">
-              <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-            <form action="#" method="post" class="footer-subscribe">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Send</button>
-                </div>
-              </div>
-            </form>  
-            </div> -->
             
-            <div class="">
+            <div class="col-md-4">
               <h2 class="footer-heading mb-4">Contact Us</h2>
               <!-- <h3>Contact</h3> -->
               <svg xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -509,9 +208,10 @@
 
           </div>
         </div>
-        <div class="row pt-5 mt-5 text-center">
+        <div class="rowtext-center" style="padding-top: 20px; text-align: center;">
           <div class="col-md-12">
-            <div class="border-top pt-5">
+            <hr>
+            <div>
             <p>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
@@ -525,6 +225,7 @@
     </footer>
 
   </div> <!-- .site-wrap -->
+
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
