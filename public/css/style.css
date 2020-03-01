@@ -1,5 +1,6 @@
 /* Import */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
 /* Base */
 body {
@@ -7,7 +8,15 @@ body {
   color: gray;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif !important;
-  font-size: 1rem; }
+  font-size: 1rem;
+  overflow-x: hidden;
+  /* background-image: url('../images/bk.png'); */
+}
+
+#home-section {
+
+  background-image: url('../images/bk.png');
+}
 
 ::-moz-selection {
   background: #000;
@@ -44,9 +53,14 @@ h1, h2, h3, h4, h5,
   color: rgba(255, 255, 255, 0.5); }
 
 .site-navbar {
-  font-size: 12px;
+  font-size: 13px;
   padding: 5px;
+  font-weight: 600;
   text-transform: uppercase;
+}
+
+span a:hover {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
 }
 
 .site-wrap:before {
@@ -54,7 +68,7 @@ h1, h2, h3, h4, h5,
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
   content: "";
   position: absolute;
   z-index: 2000;
@@ -150,6 +164,13 @@ header .logo {
       font-size: 3rem; }
     }
 
+.box {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.14);
+  background: white;
+  margin: 10px;
+}
+
 #projects-section .cards {
   border: 0;
     margin-bottom: 30px;
@@ -159,6 +180,33 @@ header .logo {
     background: #fff;
     width: 100%;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-body {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+#social-heading {
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+
+.socials-box {
+  background: #ffffff;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+.social-icons {
+  text-align: center;
+  padding: 20px 0px;
 }
 
 @media (min-width: 768px) {
@@ -171,12 +219,20 @@ header .logo {
 .border-top {
   border-top: 1px solid #edf0f5 !important; }
 
+footer .container {
+  padding-top: 20px;
+}
+
+.fa {
+  padding: 3px;
+  color: #000;
+}
+
 .site-footer {
-  padding: 4em 0;
   background: #333333; }
   @media (min-width: 768px) {
     .site-footer {
-      padding: 8em 0; } }
+      padding: 1em 0; } }
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
@@ -586,8 +642,6 @@ header .logo {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease; }
-  .sticky-wrapper .site-navbar {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
       .sticky-wrapper .site-navbar ul li a.active {
         color: rgb(0, 0, 0) !important; }
   .sticky-wrapper.is-sticky .site-navbar {
@@ -635,6 +689,17 @@ header .logo {
     padding-top: 17px;;
   }
 
+  footer {
+    text-align: center;
+  }
+
+  .footer-heading {
+    margin-bottom: 0px !important;
+    margin-top: 2rem !important;
+  }
+
+
+
 }
 
 
@@ -650,6 +715,7 @@ header .logo {
     min-height: 400px;
     height: calc(20vh); }
   .site-blocks-cover h1 {
+    padding-top: 50px;
     font-size: 3rem;
     font-weight: 400;
     color: #000;
@@ -1695,7 +1761,7 @@ header .logo {
     margin-bottom: 0; }
 
 .team-member {
-  background: #f0f0f0; }
+  text-align: center; }
   .team-member figure {
     margin: 0;
     padding: 0;
@@ -1737,12 +1803,17 @@ header .logo {
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
 
-#team-section h2 {
+#team-section h3 {
   text-align: center;
 }
 
+/* #team-section {
+  margin-top: 40px;
+} */
+
 #team-heading {
-  letter-spacing: 3px !important;
+  text-align: center;
+  padding: 30px;
   color: black !important;
 }
 
@@ -1866,4 +1937,14 @@ header .logo {
 
 .blank {
   height: 80px !important;
+}
+
+/* Events */
+
+.event-img {
+  max-width: 100%;
+}
+
+#timeline {
+  padding: 50px;
 }
