@@ -44,11 +44,13 @@ jQuery(document).ready( function( $ ) {
             title: Title
           }, function(error) {
             if (error) {
-              console.log('Could not save data...');
+              alert('Could not save data...');
             } else {
-              console.log('Write Successfull...');
+              alert('Idea successfully submitted...');
             }
+            window.location.reload();
           });
+        return false;
         });
     
 
