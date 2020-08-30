@@ -3,4 +3,18 @@
 
 
 The development repository for website of Developer Student Clubs-NIT Rourkela.
-Launch date : 31 Oct
+
+
+## Guidelines to submit your Pull Request for the Submissions Sections   
+
+- Go to public/submissions   
+
+- Add your GitHub username to the the data List.   
+
+- Save and Commit your changes  
+
+- Send Pull Requests to our ```release``` branch. 
+
+- Wait for your Pull Request to be merged.
+
+- Check out your GitHub Profile card over [here](https://dscnitrourkela.tech/submissions/submissions.html)

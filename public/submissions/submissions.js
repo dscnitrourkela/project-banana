@@ -19,7 +19,7 @@ const makeCard=async (username)=>{
 }
 
 const  init= async ()=>{
-    const profiles= JSON.parse(data);
+    const profiles= data;
     let profileList=[];
     await Promise.all(profiles.map(async (each)=>{
         const cardElement=await makeCard(each);
