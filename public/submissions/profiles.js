@@ -1,1 +1,8 @@
-data = ["HarishTeens","thesmader","chinmay-kb","DesignrKnight","roshankshaw","roshankshaw"]
+data = [
+  "HarishTeens",
+  "thesmader",
+  "chinmay-kb",
+  "DesignrKnight",
+  "roshankshaw",
+  "roshankshaw"
+]
