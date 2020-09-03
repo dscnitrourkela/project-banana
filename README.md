@@ -7,6 +7,7 @@ The development repository for website of Developer Student Clubs-NIT Rourkela.
 
 ## Guidelines to submit your Pull Request for the Submissions Sections   
 
+
 - Go to [profiles.js](https://github.com/dscnitrourkela/project-banana/blob/releaase/profiles.js)
 
 - Add your GitHub username to the the data List.   
