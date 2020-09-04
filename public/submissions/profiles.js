@@ -1,5 +1,4 @@
 data = [
-  "roshankshaw",
   "ShaswatLenka",
   "DesignrKnight",
   "HarishTeens",
