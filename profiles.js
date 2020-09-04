@@ -6,6 +6,5 @@ data = [
   "chinmay-kb",  
   "roshankshaw",
   "ankank30",
-  "ashsek"  ,
-  "ritomsonowal"
+  "ashsek"  
 ]
