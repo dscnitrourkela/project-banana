@@ -5,5 +5,5 @@ data = [
   "chinmay-kb",  
   "ankank30",
   "ashsek" ,
-  "Veen-18"
+  "Veen18"
 ]
