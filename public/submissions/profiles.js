@@ -1,11 +1,30 @@
 data = [
   "ShaswatLenka",
   "DesignrKnight",
-  "HarishTeens",
   "thesmader",
   "chinmay-kb",  
-  "roshankshaw",
   "ankank30",
-  "ashsek" 
+  "ashsek" ,
   "pao0318"
+  "ashsek" ,
+  "Sushreesatarupa",
+  "ashsek" , 
+  "shikhar043" ,
+  "Vanshika-20",
+  "rohitk2001",
+  "JaiNITR",
+  "ahananupam33",
+  "ankitoscar",
+  "luv28",
+  "ashsek" ,
+  "varnika",
+  "Soumyashree-194",
+  "ARNAVANILPANDEY",
+  "CIPHERTron",
+  "SadeepNanda" ,
+  "mk15012",
+  "Veen-18",
+  "Atul-Panigrahy",
+  "amlansahoo07",
+  "malayaj2000"
 ]
