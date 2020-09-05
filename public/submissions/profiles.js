@@ -1,11 +1,10 @@
 data = [
   "ShaswatLenka",
   "DesignrKnight",
-  "HarishTeens",
   "thesmader",
   "chinmay-kb",  
-  "roshankshaw",
   "ankank30",
   "ashsek" ,
-  'bgov600
+  "bgov600",
+  "malayaj2000"
 ]
