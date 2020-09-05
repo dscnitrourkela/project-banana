@@ -14,7 +14,6 @@ data = [
   "ashsek" , 
   "Sundarboii",
   "Ashish-Suman",
-  "shikhar043" ,
   "Vanshika-20",
   "rohitk2001",
   "JaiNITR",
