@@ -16,7 +16,7 @@ const makeCard=async (username)=>{
             '<img src="'+userData.avatar_url+'?size=400" alt="Image" class="img-fluid">'+
         '</figure>'+
         '<div class="p-3">'+
-            '<a href="https://github.com/'+username+'"><h3>'+userData.name+'</h3></a>'+
+            '<a href="https://github.com/'+username+'"><h3>'+username+'</h3></a>'+
             '<span class="position">'+userData.bio+'</span>'+
         '</div>'+
         '</div>'+
