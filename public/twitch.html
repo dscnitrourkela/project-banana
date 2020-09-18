@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+    <div id="atest"></div>
+    <script type="text/javascript">
+      var options = {
+        width: 800,
+        height: 600,
+        channel: "dscnitrourkela",
+        parent: ["151.101.158.167:443", "othersite.example.com"]
+      };
+      var player = new Twitch.Player("atest", options);
+      player.setVolume(0.5);
+    </script>
+  </body>
+</html>
