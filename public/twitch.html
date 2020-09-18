@@ -2,11 +2,19 @@
   <body>
     <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
     <div id="atest"></div>
+    <iframe frameborder="0"
+        scrolling="yes"
+        id="chat_embed"
+        src="https://www.twitch.tv/embed/dscnitrourkela/chat?parent=dscnitrourkela.tech"
+        height="500"
+        width="350">
+    </iframe>
     <script type="text/javascript">
       var options = {
         width: 800,
         height: 600,
-        channel: "dscnitrourkela"
+        channel: "dscnitrourkela",
+        parent: ["dscnitrourkela.tech"]
       };
       var player = new Twitch.Player("atest", options);
       player.setVolume(0.5);
