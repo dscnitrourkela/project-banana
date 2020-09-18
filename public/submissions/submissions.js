@@ -1,6 +1,15 @@
 const makeCard=async (username)=>{
     let htmlElement;
-    await $.get("https://api.github.com/users/"+username,(userData)=>{
+    const USERNAME="HarishTeens"
+    const PASSWORD="d14e743baa4e8cafd771308c6a71d484152b2220"
+    await $.ajax
+    ({
+    type: "GET",
+    url: "https://api.github.com/users/"+username,    
+    headers: {
+        "Authorization": "Basic " + btoa(USERNAME + ":" + PASSWORD)
+    },
+    success: (userData)=>{
         htmlElement='<div class="col-md-6 col-lg-3 mb-4">'+
         '<div class="team-member">'+
         '<figure>'+
@@ -12,9 +21,9 @@ const makeCard=async (username)=>{
         '</div>'+
         '</div>'+
         '</div>'
-    })
+    }
+    });
     
-
     return  htmlElement;
 }
 
