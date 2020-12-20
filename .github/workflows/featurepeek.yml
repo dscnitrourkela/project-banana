@@ -11,3 +11,5 @@ jobs:
         node-version: 12.x
     - name: Ping FeaturePeek
       run: bash <(curl -s https://peek.run/ci)
+      env: 
+        CI: true
