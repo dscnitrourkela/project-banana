@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "varnika18",
+      "name": "varnika18",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56693344?v=4",
+      "profile": "https://github.com/varnika18",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "project-banana",
+  "projectOwner": "dscnitrourkela",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
