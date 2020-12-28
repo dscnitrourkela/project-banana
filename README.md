@@ -30,19 +30,6 @@ NOTE 1: Please abide by the [Contributing Guidelines](./CONTRIBUTING.md).
 
 NOTE 2: Please abide by the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
-## Guidelines to submit your Pull Request for the Submissions Sections   
-
-- Go to public/submissions/profiles.js
-
-- Add your GitHub username to the the data List.   
-
-- Save and Commit your changes  
-
-- Send Pull Requests to our ```release``` branch. 
-
-- Wait for your Pull Request to be merged.
-
-- Check out your GitHub Profile card over [here](https://dscnitrourkela.tech/submissions/submissions.html)
 ## Starware
 
 This is Starware.  
