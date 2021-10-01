@@ -1,7 +1,7 @@
 const makeCard=async (username)=>{
     let htmlElement;
-    const USERNAME="HarishTeens"
-    const PASSWORD="d14e743baa4e8cafd771308c6a71d484152b2220"
+    const USERNAME="dscnitrourkela"
+    const PASSWORD="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"
     await $.ajax
     ({
     type: "GET",
