@@ -8,16 +8,186 @@
 	<title>ICS Chat Support</title>
 
 	<style>
+		*,
+		*:before,
+		*:after {
+			box-sizing: border-box;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		html,
+		body,
+		div,
+		input,
+		button,
+		select,
+		option,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p,
+		text {
+			font-family: sans-serif;
+		}
+
+		html,
+		body {
+			max-width: 100vw;
+			min-height: 100vh;
+		}
+
+		html,
+		body,
+		div,
+		span,
+		applet,
+		object,
+		iframe,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p,
+		blockquote,
+		pre,
+		a,
+		abbr,
+		acronym,
+		address,
+		big,
+		cite,
+		code,
+		del,
+		dfn,
+		em,
+		img,
+		ins,
+		kbd,
+		q,
+		s,
+		samp,
+		small,
+		strike,
+		strong,
+		sub,
+		sup,
+		tt,
+		var,
+		b,
+		u,
+		i,
+		center,
+		dl,
+		dt,
+		dd,
+		ol,
+		ul,
+		li,
+		fieldset,
+		form,
+		label,
+		legend,
+		caption,
+		tbody,
+		tfoot,
+		thead,
+		tr,
+		th,
+		td,
+		article,
+		aside,
+		canvas,
+		details,
+		embed,
+		figure,
+		figcaption,
+		footer,
+		header,
+		hgroup,
+		menu,
+		nav,
+		output,
+		ruby,
+		section,
+		summary,
+		time,
+		mark,
+		audio,
+		video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			vertical-align: baseline;
+		}
+
+		/* HTML5 display-role reset for older browsers */
+		article,
+		aside,
+		details,
+		figcaption,
+		figure,
+		footer,
+		header,
+		hgroup,
+		menu,
+		nav,
+		section {
+			display: block;
+		}
+
+		body {
+			line-height: 1;
+			scroll-behavior: smooth;
+		}
+
+		ol,
+		ul {
+			list-style: none;
+		}
+
+		blockquote,
+		q {
+			quotes: none;
+		}
+
+		blockquote:before,
+		blockquote:after,
+		q:before,
+		q:after {
+			content: '';
+			content: none;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		[tabindex] {
+			outline: none !important;
+		}
+
 		body {
 			margin: 0;
 			padding: 0;
 			background-color: #d6fdfd;
+			position: relative;
+			width: 100vw;
+			height: auto;
+			max-height: 100vh;
+			overflow: hidden;
 		}
 
 		.title-div {
 			margin: 0;
 			padding: 1rem;
-			width: 100%;
+			width: 100vw;
 			background: linear-gradient(90deg, #2A7EBC, #66BF93)
 		}
 
@@ -27,6 +197,21 @@
 			color: white;
 			font-weight: 500;
 			letter-spacing: 2px;
+			width: 100%;
+			font-size: 1.5rem;
+		}
+
+		.lottie-iframe {
+			position: absolute;
+			transform: translate(-50%, -50%);
+			top: 50%;
+			left: 50%;
+		}
+
+		#hubspot-messages-iframe-container {
+			position: absolute !important;
+			bottom: 20px !important;
+			right: 20px !important;
 		}
 	</style>
 </head>
@@ -36,8 +221,13 @@
 	<div class="title-div">
 		<h2 class="title">Chat Support for Freshers</h2>
 	</div>
+
+	<div class="lottie-iframe">
+		<iframe src="https://embed.lottiefiles.com/animation/84339"></iframe>
+	</div>
+
 	<!-- Start of HubSpot Embed Code -->
-	<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8935877.js"></script>
+	<!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8935877.js"></script> -->
 	<!-- End of HubSpot Embed Code -->
 </body>
 
